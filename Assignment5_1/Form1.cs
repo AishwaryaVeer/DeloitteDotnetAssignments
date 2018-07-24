@@ -109,7 +109,32 @@ namespace Assignment5_1
 
         private void btndelete_Click(object sender, EventArgs e)
         {
+            int roll = (int)cbchoose.SelectedValue;
+            var olddata = db.StudentInfoes.Where(x => x.RollNo.Equals(roll)).SingleOrDefault();
 
+            db.StudentInfoes.Remove(olddata);
+            var res = db.SaveChanges();
+            if (res > 0)
+                MessageBox.Show("Data deleted");
+            this.studentInfoTableAdapter.Fill(this.assignmentsDatabaseDataSet.StudentInfo);
+        }
+
+        private void btnfind_Click(object sender, EventArgs e)
+        {
+            int roll = (int)cbchoose.SelectedValue;
+            var ob = db.StudentInfoes.Where(x => x.RollNo.Equals(roll)).SingleOrDefault();
+            lbDisplaySelect.Items.Clear();
+
+            lbDisplaySelect.Items.Add(ob.RollNo);
+            lbDisplaySelect.Items.Add(ob.Name);
+            lbDisplaySelect.Items.Add(ob.DateOfBirth);
+            lbDisplaySelect.Items.Add(ob.Gender);
+            lbDisplaySelect.Items.Add(ob.Department);
+            lbDisplaySelect.Items.Add(ob.Course);
+            lbDisplaySelect.Items.Add(ob.Semester);
+            lbDisplaySelect.Items.Add(ob.Address);
+            lbDisplaySelect.Items.Add(ob.PhoneNo);
+            lbDisplaySelect.Items.Add("=================================");
         }
     }
 }

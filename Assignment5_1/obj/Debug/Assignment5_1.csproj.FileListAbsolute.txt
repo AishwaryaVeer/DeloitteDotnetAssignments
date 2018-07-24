@@ -1,0 +1,11 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\bin\Debug\Assignment5_1.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\bin\Debug\Assignment5_1.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\bin\Debug\Assignment5_1.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\bin\Debug\EntityFramework.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\bin\Debug\EntityFramework.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\obj\Debug\Assignment5_1.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\obj\Debug\Assignment5_1.Form1.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\obj\Debug\Assignment5_1.Properties.Resources.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\obj\Debug\Assignment5_1.csproj.GenerateResource.Cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\obj\Debug\Assignment5_1.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Assignment5_1\obj\Debug\Assignment5_1.pdb

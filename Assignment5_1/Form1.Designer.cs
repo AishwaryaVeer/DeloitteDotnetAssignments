@@ -56,13 +56,13 @@
             this.btndelete = new System.Windows.Forms.Button();
             this.lbDisplaySelect = new System.Windows.Forms.ListBox();
             this.cbchoose = new System.Windows.Forms.ComboBox();
-            this.studentInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.assignmentsDatabaseDataSet = new Assignment5_1.AssignmentsDatabaseDataSet();
             this.studentInfoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.assignmentsDatabaseDataSet = new Assignment5_1.AssignmentsDatabaseDataSet();
+            this.studentInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.studentInfoTableAdapter = new Assignment5_1.AssignmentsDatabaseDataSetTableAdapters.StudentInfoTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.studentInfoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.assignmentsDatabaseDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentInfoBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.assignmentsDatabaseDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentInfoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lblStudentProfile
@@ -268,6 +268,7 @@
             this.btnfind.TabIndex = 21;
             this.btnfind.Text = "Find";
             this.btnfind.UseVisualStyleBackColor = true;
+            this.btnfind.Click += new System.EventHandler(this.btnfind_Click);
             // 
             // btnnew
             // 
@@ -328,19 +329,19 @@
             this.cbchoose.TabIndex = 27;
             this.cbchoose.ValueMember = "RollNo";
             // 
-            // studentInfoBindingSource
+            // studentInfoBindingSource1
             // 
-            this.studentInfoBindingSource.DataMember = "StudentInfo";
+            this.studentInfoBindingSource1.DataMember = "StudentInfo";
+            this.studentInfoBindingSource1.DataSource = this.assignmentsDatabaseDataSet;
             // 
             // assignmentsDatabaseDataSet
             // 
             this.assignmentsDatabaseDataSet.DataSetName = "AssignmentsDatabaseDataSet";
             this.assignmentsDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // studentInfoBindingSource1
+            // studentInfoBindingSource
             // 
-            this.studentInfoBindingSource1.DataMember = "StudentInfo";
-            this.studentInfoBindingSource1.DataSource = this.assignmentsDatabaseDataSet;
+            this.studentInfoBindingSource.DataMember = "StudentInfo";
             // 
             // studentInfoTableAdapter
             // 
@@ -383,9 +384,9 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.studentInfoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.assignmentsDatabaseDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentInfoBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.assignmentsDatabaseDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentInfoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
