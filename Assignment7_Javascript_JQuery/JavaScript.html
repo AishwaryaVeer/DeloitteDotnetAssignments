@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        .style1 {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding-right: 40px;
+            background-color: darkgray;
+            color: black;
+        }
+
+            .style1 th {
+                background-color: darkgray;
+            }
+
+            .style1 tr:nth-child(even) {
+                background-color: lightgray;
+            }
+
+            .style1 tr:nth-child(odd) {
+                background-color: white;
+            }
+
+        .outer td {
+            padding: 20px;
+        }
+
+        .inner {
+            border: 2px solid brown;
+            border-collapse: collapse;
+            padding-right: 40px;
+            background-color: antiquewhite;
+            color: black;
+        }
+
+        input {
+            border: 2px solid black;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function Validate()
+        {
+            var name = document.getElementById("txtname").value;
+            if(name=="")
+            {
+                alert("Name cannot be blank");
+                return;
+            }
+            var age = parseInt(document.getElementById("numage").value);
+            if (isNaN(age)) {
+                alert("Enter age as number");
+                return;
+            }
+
+            var g = "";
+            var gen = document.getElementsByName("gen");
+            if (gen[0].checked)
+                g = gen[0].value;
+            if (gen[1].checked)
+                g = gen[1].value;
+            if (!(gen[0].checked || gen[1].checked))
+            {
+                alert("Select Gender");
+                return;
+            }
+
+            var loc = document.getElementById("loc").value;
+            if (loc == "select") {
+                alert("select a Location");
+                return;
+            }
+
+            document.write("data you entered :" + name + "," + age  + "," + g + "," + loc);
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <table class="outer">
+        <tr>
+            <td>
+                <font size="4"><b>List of Persons</b></font>
+                <br />
+                <table class="style1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>Shahzad</td>
+                        <td>30</td>
+                        <td>Male</td>
+                        <td>Lahore</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Danial</td>
+                        <td>Male</td>
+                        <td>34</td>
+                        <td>Islamabad</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Sara</td>
+                        <td>Female</td>
+                        <td>34</td>
+                        <td>Karachi</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>John</td>
+                        <td>Male</td>
+                        <td>38</td>
+                        <td>Lahore</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                </table>
+            </td>
+            <td>
+                <font size="4"><b>Add / Update Person Form</b></font>
+                <br />
+                <form>
+                    <table class="inner">
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" id="txtname"/></td>
+                        </tr>
+
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="gen" value="male" > Male
+                                <input type="radio" name="gen" value="female" > Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="number" id="numage"/></td>
+                        </tr>
+
+                        <tr>
+                            <td>City:</td>
+                            <td>
+                                <select id="loc">
+                                    <option value="select">select</option>
+                                    <option value="Lahore">Lahore</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Bang">Bangalore</option>
+                                    <option value="Mum">Mumbai</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <input type="button" value="Reset" onclick="Validate()">
+                                <input type="button" value="Add" onclick="Validate()">
+                                <input type="button" value="Update" onclick="Validate()">
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

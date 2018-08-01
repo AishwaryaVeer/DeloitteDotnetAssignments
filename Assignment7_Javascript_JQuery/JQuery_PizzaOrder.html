@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function ()
+        {
+            $("#B1").click(function () {
+
+                var d1= $("input:radio[name='ptype']:checked").val();
+                var d2 =$("input[name='psize']:checked").val();
+                var d3 = $("#toppings").val();
+                var d4 = $("#qty").val();
+
+                $("#Display").append("<tr><td>"+d1+"</td><td>"+d2+"</td><td>"+d3+"</td><td>"+d4+"</td></tr>");
+            });
+        });
+    </script>
+
+
+</head>
+<body>
+    <div style="background-color:lightpink; font-family:Georgia; font-size:x-large; width:auto ; height:auto"><center>
+        Place Your Pizza Order Here!!</center></div>
+
+    <br/><br/><br/>
+
+    <div style="background-color:thistle; font-family:Georgia; font-size:large; width:auto ; height:auto">
+
+        <label>Pizza Type:</label>
+        <input type="radio" name="ptype" value="Veg" />Veg
+        <input type="radio" name="ptype" value="NonVeg" />Non Veg
+
+        <br/><br/>
+
+        <label>Pizza Size:</label>
+        <input type="radio" name="psize" value="Small" />Small
+        <input type="radio" name="psize" value="Medium" />Medium
+        <input type="radio" name="psize" value="Large" />Large
+
+        <br /><br />
+
+        <label>Pizza Toppings:</label>
+        <select id="toppings" multiple ="multiple">
+
+            <option value="Corn">Corn</option>
+            <option value="Brocolli">Brocolli</option>
+            <option value="Onion">Onion</option>
+            <option value="BellPeppers">Bell Peppers</option>
+            <option value="Chickensausages">Chicken sausages</option>
+            <option value="Peporonni">Peporonni</option>
+        </select>
+
+        <br/><br/>
+
+        <label>Enter the Quantity:</label>
+        <input type="number" id="qty" />
+
+        <br/><br/><br/>
+
+        <table id="Display" border="1" >
+            <tr>
+
+                <th>Pizza Type</th>
+                <th>Pizza Size</th>
+                <th>Pizza Toppings</th>
+                <th>Quantity</th>
+
+            </tr>
+        </table>
+        <br/> <br/>
+
+        <button id="B1">ORDER</button>
+        <br/><br/><br/>
+
+    </div>
+
+</body>
+</html>

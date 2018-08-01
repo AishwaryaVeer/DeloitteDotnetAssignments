@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <style>
+        .style1 {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding-right: 40px;
+            background-color: darkgray;
+            color: black;
+        }
+
+        .style1 th {background-color:darkgray}
+            .style1 tr:nth-child(even) {
+                background-color:lightgray;
+            }
+
+            .style1 tr:nth-child(odd) {
+                background-color: white;
+            }
+
+            .outer td{
+                 padding: 20px;
+            }
+
+            .inner {
+                border: 2px solid brown;
+            border-collapse: collapse;
+            padding-right: 40px;
+            background-color:antiquewhite;
+            color: black;
+
+            }
+
+            input{border:2px solid black}
+
+    </style>
+</head>
+
+<body>
+    <table class="outer">
+        <tr>
+            <td>
+                <font size="4"><b>List of Persons</b></font>
+                <br/>
+                <table class="style1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>Shahzad</td>
+                        <td>30</td>
+                        <td>Male</td>
+                        <td>Lahore</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Danial</td>
+                        <td>Male</td>
+                        <td>34</td>
+                        <td>Islamabad</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Sara</td>
+                        <td>Female</td>
+                        <td>34</td>
+                        <td>Karachi</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>John</td>
+                        <td>Male</td>
+                        <td>38</td>
+                        <td>Lahore</td>
+                        <td>Update/Remove</td>
+
+                    </tr>
+
+                </table>
+            </td>
+            <td>
+                <font size="4"><b>Add / Update Person Form</b></font>
+                <br/>
+                <form>
+                    <table class="inner" >
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" /></td>
+                        </tr>
+
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="number" /></td>
+                        </tr>
+
+                        <tr>
+                            <td>City:</td>
+                            <td>
+                                <select>
+                                    <option value="Lahore">Lahore</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Bang">Bangalore</option>
+                                    <option value="Mum">Mumbai</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <input type="button" value="Reset">
+                                <input type="button" value="Add">
+                                <input type="button" value="Update">
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
