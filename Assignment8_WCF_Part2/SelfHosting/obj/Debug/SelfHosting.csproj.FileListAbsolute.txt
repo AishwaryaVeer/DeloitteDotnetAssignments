@@ -1,0 +1,10 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\SelfHosting.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\SelfHosting.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\SelfHosting.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\CardInfoLibrary.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\EntityFramework.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\CardInfoLibrary.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\bin\Debug\EntityFramework.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\obj\Debug\SelfHosting.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\obj\Debug\SelfHosting.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\SelfHosting\obj\Debug\SelfHosting.pdb
