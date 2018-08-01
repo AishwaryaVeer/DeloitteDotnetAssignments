@@ -1,0 +1,9 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\bin\Debug\Client_Card.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\bin\Debug\Client_Card.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\bin\Debug\Client_Card.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\obj\Debug\Client_Card.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\obj\Debug\Client_Card.Form1.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\obj\Debug\Client_Card.Properties.Resources.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\obj\Debug\Client_Card.csproj.GenerateResource.Cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\obj\Debug\Client_Card.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\Client_Card\obj\Debug\Client_Card.pdb

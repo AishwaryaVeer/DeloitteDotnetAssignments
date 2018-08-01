@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AssignmentsDatabaseModelStoreContainer" CdmEntityContainer="AssignmentsDatabaseEntities">
+    <EntitySetMapping Name="CardInfoes">
+      <EntityTypeMapping TypeName="AssignmentsDatabaseModel.CardInfo">
+        <MappingFragment StoreEntitySet="CardInfo">
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="expdate" ColumnName="expdate" />
+          <ScalarProperty Name="cvvno" ColumnName="cvvno" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

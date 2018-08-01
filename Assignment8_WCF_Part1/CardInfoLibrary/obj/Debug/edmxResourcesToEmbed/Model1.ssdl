@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AssignmentsDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CardInfo">
+    <Key>
+      <PropertyRef Name="CardNumber" />
+    </Key>
+    <Property Name="CardNumber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="expdate" Type="datetime" Nullable="false" />
+    <Property Name="cvvno" Type="int" Nullable="false" />
+    <Property Name="balance" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AssignmentsDatabaseModelStoreContainer">
+    <EntitySet Name="CardInfo" EntityType="Self.CardInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

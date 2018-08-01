@@ -1,0 +1,8 @@
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\bin\Debug\CardInfoLibrary.dll.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\bin\Debug\CardInfoLibrary.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\bin\Debug\CardInfoLibrary.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\bin\Debug\EntityFramework.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\bin\Debug\EntityFramework.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\obj\Debug\CardInfoLibrary.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\obj\Debug\CardInfoLibrary.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\Assignments\CardInfoLibrary\obj\Debug\CardInfoLibrary.pdb
